@@ -1,0 +1,174 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "kids animal sounds",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnimalIntent",
+                    "slots": [
+                        {
+                            "name": "animal",
+                            "type": "Animals"
+                        }
+                    ],
+                    "samples": [
+                        "{animal}",
+                        "hear the {animal}",
+                        "hear {animal}",
+                        "go to {animal}",
+                        "find the {animal}",
+                        "listen to the {animal}",
+                        "visit the {animal}",
+                        "listen to {animal}",
+                        "visit {animal}",
+                        "find {animal}"
+                    ]
+                },
+                {
+                    "name": "ContinueIntent",
+                    "slots": [],
+                    "samples": [
+                        "next",
+                        "continue"
+                    ]
+                },
+                {
+                    "name": "ListIntent",
+                    "slots": [],
+                    "samples": [
+                        "what animals can i visit",
+                        "list animals",
+                        "list",
+                        "list of animals",
+                        "what animals"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "Animals",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "tiger"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "squirrel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "prairie dog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "raccoon"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "elephant"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bat"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bear"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cougar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zebra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sea lion",
+                                "synonyms": [
+                                    "sealion"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pig"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "penguin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "monkey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "leopard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rhino",
+                                "synonyms": [
+                                    "rhinoceros"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hippo",
+                                "synonyms": [
+                                    "hippopotamus"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cheetah",
+                                "synonyms": [
+                                    "puma"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lion"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
